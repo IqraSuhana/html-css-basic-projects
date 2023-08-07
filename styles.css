@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+body{
+    background-color: #ccc;
+
+}
+.container{
+    max-width:900px;
+    margin:0 auto;
+    background-color:#e9e9e9
+
+}
+.apply_box{
+    max-width:600px;
+    padding:20px;
+    margin:0 auto;
+    margin-top:50px;
+    /* In box-shadow, x-axis:4px, y-axis:3px, x-axis:5px and alpha value is always between 0 and 1 */
+    box-shadow:4px 3px 5px rgba(1, 1, 1, 0.1);
+    border-radius: 20px; 
+    background-color: #fff;
+}
+.web-small{
+    font-size: 13px;
+}
+/* grid is used for alignment */
+
+.form-container{
+    margin-top: 20px;
+    display:grid;
+    /* grid-template-columns:repeat(autofit,minmax(200px,1fr)); */
+    gap:15px;
+
+}
+.form_control{
+    display:flex;
+    /* flex-direction:column; */
+    /* flex-direction: row; */
+
+}
+label{
+    margin:10px;
+}
+input, select, textarea{
+    padding:6px 10px;
+    border:1px solid grey;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.button_container{
+    display:flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+textarea{
+    width:100%;
+}
+.form_control_textarea{
+    height:20%;
+
+    grid-column: 1 /span 2;
+}
+button{
+    background-color: red;
+    border:transparent solid 2px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: white;
+    transition: 0.3s ease-in;
+}
+button:hover{
+    background-color: grey;
+    border:2px solid red;
+    color:black;
+    transition: 0.3s ease-out;
+    cursor:grab;
+}
+@media(max-width:460px){
+    .form_control_textarea{    
+        grid-column: 1 /span 1;
+    }
+}

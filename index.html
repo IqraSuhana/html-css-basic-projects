@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <div class="apply_box">
+
+    <section id="header">
+        <h1>Job Application form <span class="web-small">(Web)</span></h1>
+    </section>
+
+    <form action="">
+        <div class="form-container">
+
+        <div class="form_control">
+        <label for="first_name">Full Name <span class="web-small">(As per CNIC) *</span></label>
+        <input type="text" id="first_name" name="first_name" placeholder="Enter name here..." />
+        </div>
+        <div class="form_control">
+
+        <label for="email">Email  *</label>
+        <input type="email" id="email" name="email" />
+        </div>
+        <div class="form_control">
+        <label for="job_role">Job role</label>
+        <select name="job_role" id="job_role">
+            <option value="">Select Job Role</option>
+            <option value="Front-End ">Front End Developer</option>
+            <option value="Back-End">Back End Developer</option>
+            <option value="fullstack">Full Stack Developer</option>
+            <option value="UI-UX">UI UX designer</option>
+        </select>
+        </div>
+
+        <div class="form_control form_control_textarea">
+
+        <label for="address">Address</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+        </div>
+
+        <div class="form_control">
+
+            <label for="city">City</label>
+            <input type="text" name="city" id="city"></div>
+            <div class="form_control">
+            <label for="pincode">Pincode</label>
+            <input type="number" id="pincode" name="pincode" >
+
+        </div>
+
+        <div class="form_control">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" value="2022-01-10">
+            </div>
+
+            <div class="form_control">
+            <label for="upload">Choose file</label>
+            <input type="file" id="upload" name="upload">
+        </div>
+        </div><div class="button_container">    <button type="submit">
+        Apply Now
+    </button>
+</div>
+    </form>
+    
+
+</div>
+</div>
+</body>
+</html>
