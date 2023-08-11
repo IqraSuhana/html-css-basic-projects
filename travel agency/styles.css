@@ -1,0 +1,51 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background:  darkcyan;
+    text-align: center;
+    margin: 0;
+}
+.dest{
+    background: lightseagreen;
+    display: block;
+
+}
+#hdr{
+    
+}
+h2,h3,p{
+ margin: 0;
+ padding: 0.8rem;
+}
+img{
+    width: 100%;
+}
+.dest{
+    width: 40%;
+    display: inline-block;
+}
+.btn{
+    text-decoration: none;
+    color: antiquewhite;
+    border: 1px solid cyan;
+    display: inline-block;
+        padding: 1em 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+.btn:hover{
+    background: lightseagreen;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(70, 52, 226);
+    color: cadetblue ;
+    height: 50px;
+    line-height: 50px ;
+    
+}
+.hdr-bg{
+background: url(https://www.candorblog.com/wp-content/uploads/2017/05/travel-022.jpg);
+background-position: center;
+}
