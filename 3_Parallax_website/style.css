@@ -1,0 +1,63 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    /* color: gray; */
+    background-color: rgb(102, 215, 102);
+}
+.img1  {
+    background-image: url(silicon\ valley.jpg);
+    height: 100%;
+    /* width: 100%; */
+
+
+}
+.img2{
+    background-image: url(silicon\ valley.jpg);
+    height: 400px;    
+
+}
+.img3{
+    background-image: url(silicon\ valley.jpg);
+    height: 500px;
+}
+.img1 , .img2 , .img3{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  /* it can be set to 100%, cover or 100% 100% */
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100% ;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
+    /* background: red; */
+    
+}
+
+.textbg{
+    background: #1c5446;
+    color: rgb(240, 232, 216);
+    padding: 15px;
+    display: inline;
+    
+
+
+}
+.text_section{
+    padding: 40px 80px;
+    text-align: center;
+}
+.text_section_light{
+    background-color: #f1f6fa;
+}
