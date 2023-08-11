@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="home">
+        <header><b>UNIT CONVERTERS:</b></header>
+        <nav>
+            <a href="#temperature"><button>Temperature converter</button></a>
+            <a href="#weight"><button>Weight converter</button></a>
+            <a href="#distance"><button>Distance converter</button></a>
+        </nav>
+    </section>
+
+    <div id="all-conversion-sections">
+        <section id="temperature">
+            <div id="temp">
+                <figure>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/thermo.png" alt="" width="200px">
+                    <figcaption>Celcius to fahrenheit conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Temperature</legend>
+                        <label for="Temperature">Celsius</label><br/>
+                        <input type="number" id="c" /><br>
+                        <button >Convert</button><br>
+                        <input type="number" id="f"><br>
+                        <label for="Temperature">fahrenheit</label>
+                    </fieldset>
+                </article>
+                <aside>
+                    To convert celsuis to fahrenheit yourself, use this formula replacing the `C` with your temperature in celsuis: (C × 9/5) + 32
+
+                </aside>
+            </div>
+        </section>
+        <section id="weight" >
+            <div id="wgt">
+                <figure>
+                    <img src="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-CD0101EN-SkillsNetwork/labs/Theia%20Labs/02%20-%20HTML5%20Elements/images/weight.png" alt="" width="200px">
+                    <figcaption>Kilogram to Pound conversion</figcaption>
+                </figure>
+                <article>
+                    <fieldset>
+                        <legend>Weight</legend>
+                        <label for="Weight">Kilograms</label><br>
+                        <input type="number" id="kg"><br>
+                        <button >Convert</button><br>
+                        <input type="number" id="lbs" > <br>
+                        <label for="Weight" >Pounds</label>
+                    </fieldset>
+                </article>
+                <aside>
+                    To convert kilograms to pounds yourself, use this formula replacing the `kg` with your weight in kilograms: kg x 2.205
+                </aside>
+            </div>
+        </section>
+
+    </div>
+    
+</body>
+</html>
