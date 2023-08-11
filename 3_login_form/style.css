@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins',serif; */
+    
+}
+html,body{
+    height: 100%;
+    background-color: rgb(41, 215, 134);
+}
+.wrapper{
+    background-image: url();
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background: rgb(174, 1, 174);
+}
+.wrap{
+    background-color: rgb(246, 241, 249);
+    max-width: 380px;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    padding: 0px 0px;
+    box-shadow: 4px 3px 6px rgba(1,1,1,0.4);
+}
+.row{
+    padding: 8px 30px;
+    margin: 5px;
+
+}
+.row .email_input{
+    margin-top: 30px;
+    
+}
+input{
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+    border: gray solid 2px;
+    padding-left: 6px ;
+    
+}
+input:focus{
+    outline-color: orange;
+}
+.submit{
+    /* background-color: green; */
+    display: flex;
+    place-content: center;
+}
+.submit input{
+background-color: purple;    border-radius: 10px;
+    font-size: 120%;
+    text-transform: capitalize;
+    color: rgb(246, 218, 218);
+    /* padding: 5px; */
+}
+.pass{
+    display: grid;
+    justify-content: right;
+    margin-right: 20px;
+    margin-bottom: 15px ;
+}
+.pass a{
+    /* background: #000; */
+    color: purple;
+    text-decoration: none;
+}
+.title{
+    background-color: rgb(142, 3, 142);
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    height: 20%;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+}
+/* .title{
+    background-color: purple;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    padding: 10px 0 ;
+    margin-bottom: 30px ;
+    border-radius: 20px;
+    color: rgb(241, 237, 241);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    box-shadow: 2px 3px 4px rgba(1,1,1,0.3);
+} */
+.new{
+    text-align: center;
+    background: rgb(235, 199, 235);
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 3px 4px rgba(1,1,1,0.25);
+}
+.new a{
+    text-decoration: none;
+    color: purple ;
+}
