@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: gray;
+}
+.head{
+    display: flex;
+    background: #bdbfbf;
+    box-shadow: 3px 5px 8px rgb(72, 72, 72) ;
+    
+}
+
+
+.head .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    /* grid-template-columns: repeat(4,200px); */
+    
+}
+.head .navbar .navitem{
+    text-decoration: none;
+    color: rgb(59, 55, 55);
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 30px;
+    transition: 0.3s;
+}
+.head .navbar a:hover{
+    color: white;
+    background: rgb(59, 55, 55);
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 1px 2px 5px black;
+
+}
+
+main{
+   /* background: rgb(255, 253, 203); */
+    /* box-shadow: 3px 2px 10px rgb(0, 0, 0) inset; */
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows:  1fr 2fr  ;
+    justify-content: center;
+    margin: 10% 0;
+    padding-top: 5%;
+
+}
+main .promotion{
+    width: 100%;
+    background: rgb(255, 255, 213);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    margin-bottom: 20px;
+    
+    font-size: 3rem;
+    box-shadow: 3px 3px 5px gray inset;
+
+}
+main .menus{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10%;
+}
+main .menu{
+    width: 120%;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    color: rgb(54, 54, 54);
+    background-color: rgb(255, 237, 171);
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px rgb(46, 46, 46) inset;
+
+}
+main .menu img{
+    margin-top: 5px ;
+}
+main .menu h3{
+    margin: 10px 0;
+}
+.foot{
+    display: grid; 
+    grid-template-columns: 50% 50%;
+
+   background: rgb(178, 178, 178);
+    border-radius: 10px;
+}
+
+.foot .copyright{
+    color: gray;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media(max-width:640px){
+    main .menu{
+        width: 100%;
+    }
+    .head .navbar{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    .head .navbar .navitem{
+        width: 100%;
+        font-size: 0.7em;
+        margin: 0;
+        padding: 0;
+    }
+} 
+@media(max-width:250px){
+    main .menus{
+        display: block;
+
+
+    }
+    .foot{
+        width: 100%;
+        display: inline-flex;
+        flex-direction: column;
+        color: rgb(78, 78, 78);
+
+    }
+    .foot img{
+        width: 100px;
+    }
+    .foot .copyright{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+}
